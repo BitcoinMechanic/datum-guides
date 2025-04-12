@@ -48,8 +48,8 @@ If running Z machines - need A powerful machine
 
 ### Clone the Installation Repo
 
-1. Run `apt install git -y` ![apt-install-git-y](/images/apt-install-git-y.png)
-2. Enter `git clone https://github.com/Com320/OC-mech-datum-boxes/` ![git-clone](/images/git-clone.png)
+1. Install git by running `apt install git -y` ![apt-install-git-y](/images/apt-install-git-y.png)
+2. Clone the repo with `git clone https://github.com/Com320/OC-mech-datum-boxes/` ![git-clone](/images/git-clone.png)
 3. Change into the repo with `cd OC-mech-datum-boxes` ![changed-dir](/images/changed-dir.png)
 4. Modify the scripts to make them executable with `chmod +x *.sh` ![chmod](/images/chmod.png)
 5. Run the installation script with `./main.sh` ![mainsh](/images/mainsh.png)
