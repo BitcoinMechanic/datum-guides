@@ -37,7 +37,7 @@ If running Z machines - need A powerful machine
 ### Install and Setup Debian
 
 1. Open PowerShell again and type `wsl --install -d Debian` ![install-debian](/images/install-debian.png) ![installed-debian](/images/installed-debian.png)
-2. Start Debian with `wsl.exe -d Debian ![exe-debian](/images/exe-debian.png) 
+2. Start Debian with `wsl.exe -d Debian` ![exe-debian](/images/exe-debian.png) 
 3. It will request a username - here we will use `Bitcoin` ![debian-username-bitcoin](/images/debian-username-bitcoin.png)
 4. Enter and retype a password for this user (typed characters will not appear) ![debian-password-retype](/images/debian-password-retype.png)
 5. Go root with `sudo -i` ![sudo-i](/images/sudo-i.png)
