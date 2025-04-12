@@ -72,14 +72,14 @@ If running Z machines - need A powerful machine
 2. 
 
 ```
-If `systemd=false` change it to `true` with 
+If `systemd=false` change it to "true" by doing the following:
   -  `nano /etc/wsl.conf`
-  -  Change `false` to `true`
+  -  Change "false" to "true"
   -  Hit `ctrl X` then `Y` then `enter` to save the file. 
   
-  - If the file `/etc/wsl.conf` does not exist
-  -  `nano /etc/wsl/conf`
-  - Enter 
+If the file "/etc/wsl.conf" does not exist:
+  - `nano /etc/wsl.conf`
+  - Then enter the following:
 [boot]
 systemd=true
   - Hit `ctrl X` then `Y` then `enter` to save the file
