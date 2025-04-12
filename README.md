@@ -6,7 +6,7 @@
 - [Windows](#windows)
   - [Installing WSL](#installing-WSL)
   - [Install and Setup Debian](#install-and-setup-debian)
-  - [Clone the Installation Repo(#clone-the-installation-repo)
+  - [Clone the Installation Repo](#clone-the-installation-repo)
   - [Install Bitcoin Knots and Datum](#install-bitcoin-knots-and-datum)
 
 ## Overview
