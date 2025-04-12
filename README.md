@@ -7,6 +7,7 @@
   - [Installing WSL](#installing-WSL)
   - [Install and Setup Debian](#install-and-setup-debian)
   - [Clone the Installation Repo(#clone-the-installation-repo)
+  - [Install Bitcoin Knots and Datum](#install-bitcoin-knots-and-datum)
 
 ## Overview
 
@@ -50,6 +51,10 @@ If running Z machines - need A powerful machine
 
 1. Install git by running `apt install git -y` ![apt-install-git-y](/images/apt-install-git-y.png)
 2. Clone the repo with `git clone https://github.com/Com320/OC-mech-datum-boxes/` ![git-clone](/images/git-clone.png)
-3. Change into the repo with `cd OC-mech-datum-boxes` ![changed-dir](/images/changed-dir.png)
-4. Modify the scripts to make them executable with `chmod +x *.sh` ![chmod](/images/chmod.png)
-5. Run the installation script with `./main.sh` ![mainsh](/images/mainsh.png)
+
+
+### Install Bitcoin Knots and Datum
+
+1. Change directory into the repo with `cd OC-mech-datum-boxes` ![changed-dir](/images/changed-dir.png)
+2. Modify the scripts to make them executable with `chmod +x *.sh` ![chmod](/images/chmod.png)
+3. Run the installation script with `./main.sh` ![mainsh](/images/mainsh.png)
