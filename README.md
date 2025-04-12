@@ -1,15 +1,11 @@
-# Guide to Using Windows App for Remote Desktop on macOS
-
-This guide explains how to use the **Windows App** to remote view and control a Windows machine from a Mac, including setup, display adjustments, and troubleshooting. It’s designed for beginners and advanced users alike.
-
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
-- [Setup](#setup)
-  - [Installing Windows App](#installing-windows-app)
+- [Windows](#windows)
+  - [Installing WSL](#installing WSL)
   - [Configuring Your Windows Machine](#configuring-your-windows-machine)
 - [Using Windows App](#using-windows-app)
   - [Connecting to Your Windows Machine](#connecting-to-your-windows-machine)
@@ -27,29 +23,27 @@ This guide explains how to use the **Windows App** to remote view and control a 
 
 ## Overview
 
-The Windows App (formerly Microsoft Remote Desktop) lets you control a Windows PC from your Mac. This guide covers setup, usage, and solutions for issues like small display size.
+Get DATUM running in various different setups!
 
-![Windows App Overview](images/windows-app-overview.png)
+![datu-main](images/datum-main.png)
 
 ---
 
 ## Prerequisites
 
-Before starting, ensure you have:
-
-- A Mac running macOS 10.14 or later.
-- A Windows PC with Remote Desktop enabled (Windows 10/11 Pro or Enterprise).
-- Both devices on the same network (or a VPN for remote access).
-- Admin access to both machines.
+If running X machines - need Y powerful machine
+If running Z machines - need A powerful machine
 
 ---
 
-## Setup
+## Windows
 
-### Installing Windows App
+### Installing WSL
 
-1. Download the Windows App from the [Mac App Store](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466).
-2. Open the app and grant permissions (e.g., Accessibility, Screen Recording).
+1. Open up a Terminal [terminal](images/terminal.png).
+2. Install WSL with `wsl --install` [wsl-1](images/wsl-1.png).
+3. Hit "Yes" [yes-1.png](/images/yes-1.png).
+
 
 ![Install Windows App](images/install-windows-app.png)
 
