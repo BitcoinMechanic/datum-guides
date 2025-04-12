@@ -10,6 +10,7 @@
   - [Install Bitcoin Knots and Datum](#install-bitcoin-knots-and-datum)
   - [Configuring systemd](#configuring-systemd)
   - [Networking](#networking)
+  - [Run WSL at Startup](#run-wsl-at-startup)
 
 ## Overview
 
@@ -105,4 +106,22 @@ systemd=true
 12. Name the new rule and click "Finish" ![name-finish](/images/name-finish.png)
 13. Finally, go back to Terminal and enter `ipconfig /all` and make a note of the IPv4 Address - **this is where you will point your miners** ![ipconfig-all](/images/ipconfig-all.png)
 
-**Note: You will want to assign give your Windows machine a static IP on your network to ensure that it doesn't change.**  
+**Note: You will want to assign your Windows machine a static IP on your network to ensure that it doesn't change.**  
+
+### Run WSL at Startup
+
+1. Right click on the Windows button ![right-click-start](/images/right-click-start.png)
+2. Unfurl "Task Scheduler" ![unfurl-task](/images/unfurl-task.png)
+3. Left click then right click on "Task Scheduler Library" and click "Create Task"
+4. Name the task `startWSL` and check "Run whether user is logged on or not" ![name-run-whether](/images/name-run-whether.png)
+5. Click "Triggers" then "New" ![triggers-new](/images/triggers-new.png)
+6. Open the "Begin the task" drop down menu and select "At startup" ![at-startup](/images/at-startup.png)
+7. Click "Actions" then "New" ![actions-new](/images/actions-new.png)
+8. Click "Browse" ![browse](/images/browse.png)
+9. Search for "wsl.exe" and click "Open" ![search-wsl-open](/images/search-wsl-open.png)
+10. Click "OK" ![ok-1](/images/ok-1.png)
+11. Uncheck "Start the task only if the computer is on AC power" if desired ![uncheck-ac](/images/uncheck-ac.png)
+12. Copy the below settings - modify as desired ![many-mods](/images/many-mods.png)
+13. Click "OK", enter your password and click "OK" again ![enter-pass-ok](/images/enter-pass-ok.png)
+
+**You can now connect your miners to your DATUM gateway once your node has finished syncing!**
