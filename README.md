@@ -9,6 +9,7 @@
   - [Clone the Installation Repo](#clone-the-installation-repo)
   - [Install Bitcoin Knots and Datum](#install-bitcoin-knots-and-datum)
   - [Configuring systemd](#configuring-systemd)
+  - [Networking](#networking)
 
 ## Overview
 
@@ -69,7 +70,7 @@ If running Z machines - need A powerful machine
 ### Configuring systemd
 
 1. Ensure that systemd is configured to run automatically with `cat /etc/wsl.conf` ![cat-wsl-conf](/images/cat-wsl-conf.png)
-2. 
+2. Skip to the [Networking](#networking) if you see the above output. If you do not see the output in the above picture:
 
 ```
 If `systemd=false` change it to "true" by doing the following:
