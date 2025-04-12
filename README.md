@@ -38,7 +38,7 @@ If running Z machines - need A powerful machine
 
 ## Windows
 
-[windows-0](/images/windows-0.png)
+![windows-0](/images/windows-0.png)
 
 ### Installing WSL
 
