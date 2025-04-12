@@ -31,8 +31,8 @@ If running Z machines - need A powerful machine
 
 ### Installing WSL
 
-1. Open up a Terminal [open-terminal](/images/open-terminal.png).
-2. Install WSL with `wsl --install` [install-wsl](/images/install-wsl.png).
-3. Hit "Yes" [yes-1.png](/images/yes-1.png).
-4. Restart your machine [restart-windows](/images/restart-windows.png).
+1. Open up a Terminal ![open-terminal](/images/open-terminal.png).
+2. Install WSL with `wsl --install` ![install-wsl](/images/install-wsl.png).
+3. Hit "Yes" ![yes-1.png](/images/yes-1.png).
+4. Restart your machine ![restart-windows](/images/restart-windows.png).
 
