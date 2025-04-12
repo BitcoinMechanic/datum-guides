@@ -1,4 +1,3 @@
----
 
 ## Table of Contents
 
@@ -8,13 +7,12 @@
   - [Installing WSL](#installing WSL)
   - [Configuring Your Windows Machine](#configuring-your-windows-machine)
 
----
 
 ## Overview
 
 Get DATUM running in various different setups!
 
-![datu-main](images/datum-main.png)
+![datum-main](/images/datum-main.png)
 
 ---
 
