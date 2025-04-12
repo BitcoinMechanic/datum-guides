@@ -5,7 +5,8 @@
 - [Prerequisites](#prerequisites)
 - [Windows](#windows)
   - [Installing WSL](#installing-WSL)
-  - [Install Debian](#install-debian)
+  - [Install and Setup Debian](#install-and-setup-debian)
+  - [Clone the Installation Repo(#clone-the-installation-repo)
 
 ## Overview
 
@@ -33,7 +34,22 @@ If running Z machines - need A powerful machine
 3. Hit "Yes" ![yes-1.png](/images/yes-1.png)
 4. Restart your machine ![restart-windows](/images/restart-windows.png)
 
-### Install Debian
+### Install and Setup Debian
 
 1. Open PowerShell again and type `wsl --install -d Debian` ![install-debian](/images/install-debian.png) ![installed-debian](/images/installed-debian.png)
-2. 
+2. Start Debian with `wsl.exe -d Debian ~[exe-debian](/images/exe-debian.png) 
+3. It will request a username - here we will use `Bitcoin` ![debian-username-bitcoin](/images/debian-username-bitcoin.png)
+4. Enter and retype a password for this user (typed characters will not appear) ![debian-password-retype](/images/debian-password-retype.png)
+5. Go root with `sudo -i` ![sudo-i](/images/sudo-i.png)
+6. It will request the password you just created ![sudo-enter-password](/images/sudo-enter-password.png)
+7. Run `apt update` ![apt-update](/images/apt-update.png)
+8. Run `apt upgrade -y` ![apt-upgrade-y](/images/apt-upgrade-y.png)
+
+
+### Clone the Installation Repo
+
+1. Run `apt install git -y` ![apt-install-git-y](/images/apt-install-git-y.png)
+2. Enter `git clone https://github.com/Com320/OC-mech-datum-boxes/` ![git-clone](/images/git-clone.png)
+3. Change into the repo with `cd OC-mech-datum-boxes` ![changed-dir](/images/changed-dir.png)
+4. Modify the scripts to make them executable with `chmod +x *.sh` ![chmod](/images/chmod.png)
+5. Run the installation script with `./main.sh` ![mainsh](/images/mainsh.png)
