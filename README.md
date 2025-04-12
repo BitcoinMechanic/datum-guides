@@ -87,4 +87,22 @@ systemd=true
 ```
 
 3. Restart wsl with `wsl.exe --shutdown`
-4. Confirm it is working with `systemctl status` ![systemctl-status](systemctl-status.png)
+4. Confirm it is working with `systemctl status` ![systemctl-status](/images/systemctl-status.png)
+
+### Networking
+
+1. Enter "WSL Settings" ![wsl-settings](/images/wsl-settings.png)
+2. Click "Networking" and change "Networking mode" to "Mirrored" ![networking-mirrored](/images/networking-mirrored.png)
+3. Right click on "Terminal" and click "Run as administrator" ![run-as-admin](/images/run-as-admin.png)
+4. Click "Yes" when asked if you want to allow Terminal to make changes ![terminal-makes-changes](/images/terminal-make-changes.png)
+5. Enter "wsl --shutdown" ![wsl-shutdown](/images/wsl-shutdown.png)
+6. Open "Windows Defender Firewall with Advanced Security" ![firewall-advanced](/images/firewall-advanced.png)
+7. Click on "Inbound Rules" and then "New Rule..." ![inbound-new-rule](/images/inbound-new-rule.png)
+8. Click "Port" and click "Next" ![port-next](/images/port-next.png)
+9. Enter "23334" for "Specific local ports" and click "Next" ![23334-next](/images/23334-next.png)
+10. "Allow the connection" and click "Next" ![allow-next](/images/allow-next.png)
+11. Under "When does this rule apply?" leave all three enabled and click "Next" ![just-next](/images/just-next.png)
+12. Name the new rule and click "Finish" ![name-finish](/images/name-finish.png)
+13. Finally, go back to Terminal and enter `ipconfig /all` and make a note of the IPv4 Address - **this is where you will point your miners** ![ipconfig-all](/images/ipconfig-all.png)
+
+**Note: You will want to assign give your Windows machine a static IP on your network to ensure that it doesn't change.**  
