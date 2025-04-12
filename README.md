@@ -71,7 +71,8 @@ If running Z machines - need A powerful machine
 1. Ensure that systemd is configured to run automatically with `cat /etc/wsl.conf` ![cat-wsl-conf](/images/cat-wsl-conf.png)
 2. 
 
-```If `systemd=false` change it to `true` with 
+```
+If `systemd=false` change it to `true` with 
   -  `nano /etc/wsl.conf`
   -  Change `false` to `true`
   -  Hit `ctrl X` then `Y` then `enter` to save the file. 
@@ -81,7 +82,8 @@ If running Z machines - need A powerful machine
   - Enter 
 [boot]
 systemd=true
-  - Hit `ctrl X` then `Y` then `enter` to save the file```
+  - Hit `ctrl X` then `Y` then `enter` to save the file
+```
 
 3. Restart wsl with `wsl.exe --shutdown`
 4. Confirm it is working with `systemctl status` ![systemctl-status](systemctl-status.png)
