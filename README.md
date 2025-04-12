@@ -4,7 +4,7 @@
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Windows](#windows)
-  - [Installing WSL](#installing WSL)
+  - [Installing WSL](#installing-WSL)
   - [Configuring Your Windows Machine](#configuring-your-windows-machine)
 
 
