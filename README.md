@@ -58,3 +58,9 @@ If running Z machines - need A powerful machine
 1. Change directory into the repo with `cd OC-mech-datum-boxes` ![changed-dir](/images/changed-dir.png)
 2. Modify the scripts to make them executable with `chmod +x *.sh` ![chmod](/images/chmod.png)
 3. Run the installation script with `./main.sh` ![mainsh](/images/mainsh.png)
+
+**The installation script will now run and the configuration files for Bitcoin Knots and DATUM will be generated requesting your input along the way. The configuration files can be modified later if desired.**
+
+4. Once the script has successfully been run, you will see the following ![finished-script](/images/finished-script.png)
+5. You will now begin syncing the Blockchain - you can monitor its progress with `tail -f /home/bitcoin/.bitcoin/data/debug.log` ![debug-log](/images/debug-log.png)
+6. Hit `ctrl C` to stop watching the logs ![ctrl-c](/images/ctrl-c.png) 
