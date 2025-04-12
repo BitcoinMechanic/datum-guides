@@ -38,6 +38,8 @@ If running Z machines - need A powerful machine
 
 ## Windows
 
+[windows-0](windows-0.png)
+
 ### Installing WSL
 
 1. Open up a Terminal [terminal](images/terminal.png).
