@@ -137,7 +137,7 @@ systemd=true
 1. Run `apt update`
 2. Run `apt upgrade -y`
 3. Run `apt install git -y`
-4. Run `git clone https://github.com/Com320/OC-mech-datum-boxes
+4. Run `git clone https://github.com/Com320/OC-mech-datum-boxes`
 5. Change into the cloned repo `cd OC-mech-datum-boxes`
 
 ### Run the Installation Scripts
