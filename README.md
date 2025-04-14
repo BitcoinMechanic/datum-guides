@@ -11,6 +11,9 @@
   - [Configuring systemd](#configuring-systemd)
   - [Networking](#networking)
   - [Run WSL at Startup](#run-wsl-at-startup)
+- [Debian](#debian)
+  - [Install Git and Clone the Installation Repo](#install-git-and-clone-the-installation-repo)
+  - [Run the Installation Scripts](#run-the-installation-scripts)
 
 ## Overview
 
@@ -125,3 +128,26 @@ systemd=true
 13. Click "OK", enter your password and click "OK" again ![enter-pass-ok](/images/windows-images/enter-pass-ok.png)
 
 **You can now connect your miners to your DATUM gateway once your node has finished syncing!**
+
+
+## Debian
+
+### Install Git and Clone the Installation Repo
+
+1. Run `apt update`
+2. Run `apt upgrade -y`
+3. Run `apt install git -y`
+4. Run `git clone https://github.com/Com320/OC-mech-datum-boxes
+5. Change into the cloned repo `cd OC-mech-datum-boxes`
+
+### Run the Installation Scripts
+
+1. Start by making them executable `chmod +x *.sh`
+2. Run `./main.sh`
+3. Follow the onscreen prompts to install and configure your Bitcoin Knots node and your DATUM gateway!
+
+**For instructions on how to configure your node/gateway see here.**
+
+**Your node will now sync. Check its progress with `/home/bitcoin/bitcoin/bin/bitcoin-cli getblockcount`**
+
+**You can now connect your miners to your DATUM gateway!**
