@@ -148,7 +148,7 @@ Note: If you make a mistake with the folllowing steps, start over with a fresh i
 1. Run `./main.sh`
 2. Follow the onscreen prompts to install and configure your Bitcoin Knots node and your DATUM gateway!
 
-**For instructions on how to configure your node/gateway see here.**
+**For instructions on how to configure your node/gateway see [here](https://github.com/BitcoinMechanic/datum-setup-instructions).**
 
 **Your node will now sync. Check its progress with `/home/bitcoin/bitcoin/bin/bitcoin-cli getblockcount`**
 
