@@ -134,7 +134,7 @@ systemd=true
 
 ### Install Git and Clone the Installation Repo
 
-1. Go sudo with `sudo -i`
+1. Go root with `su -`
 2. Run `apt update`
 3. Run `apt upgrade -y`
 4. Run `apt install git -y`
@@ -143,9 +143,8 @@ systemd=true
 
 ### Run the Installation Scripts
 
-1. Start by making them executable `chmod +x *.sh`
-2. Run `./main.sh`
-3. Follow the onscreen prompts to install and configure your Bitcoin Knots node and your DATUM gateway!
+1. Run `./main.sh`
+2. Follow the onscreen prompts to install and configure your Bitcoin Knots node and your DATUM gateway!
 
 **For instructions on how to configure your node/gateway see here.**
 
