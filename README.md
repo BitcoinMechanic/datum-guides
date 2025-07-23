@@ -150,6 +150,6 @@ Note: If you make a mistake with the folllowing steps, start over with a fresh i
 
 **For instructions on how to configure your node/gateway see [here](https://github.com/BitcoinMechanic/datum-setup-instructions).**
 
-**Your node will now sync. Check its progress with `/home/bitcoin/bitcoin/bin/bitcoin-cli getblockcount`**
+**Your node will now sync. Check its progress with `/home/bitcoin/bitcoin/src/bitcoin/src/bitcoin-cli getblockcount`**
 
 **You can now connect your miners to your DATUM gateway!**
