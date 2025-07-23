@@ -132,6 +132,8 @@ systemd=true
 
 ## Debian
 
+Note: If you make a mistake with the folllowing steps, start over with a fresh install of Debian.
+
 ### Install Git and Clone the Installation Repo
 
 1. Go root with `su -`
