@@ -150,6 +150,6 @@ Note: If you make a mistake with the folllowing steps, start over with a fresh i
 
 **For instructions on how to configure your node/gateway see [here](https://github.com/BitcoinMechanic/datum-setup-instructions).**
 
-**Your node will now sync. Check its progress with `/home/bitcoin/bitcoin/src/bitcoin/src/bitcoin-cli getblockcount`**
+**Your node will now sync. Check its progress with `bitcoin-cli getblockcount`** Note: You will need to do this as the `bitcoin` user - or whatever you called the user created when running the script. `su - bitcoin` to switch to that user.
 
 **You can now connect your miners to your DATUM gateway!**
