@@ -152,4 +152,6 @@ Note: If you make a mistake with the folllowing steps, start over with a fresh i
 
 **Your node will now sync. Check its progress with `bitcoin-cli getblockcount`** Note: You will need to do this as the `bitcoin` user - or whatever you called the user created when running the script. `su - bitcoin` to switch to that user.
 
+You can follow along with `tail -f /var/lib/bitcoind/debug.log` also.
+
 **You can now connect your miners to your DATUM gateway!**
