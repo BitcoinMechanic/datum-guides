@@ -25,8 +25,9 @@ Get DATUM running in various different setups!
 
 ## Prerequisites
 
-If running X machines - need Y powerful machine
-If running Z machines - need A powerful machine
+The Bitcoin node itself should have at least 16GB of ram.
+
+You will need an additional 1GB of ram per 1000 miners.
 
 ---
 
