@@ -146,6 +146,8 @@ Note: If you make a mistake with the folllowing steps, start over with a fresh i
 
 ### Run the Installation Scripts
 
+**Make sure you are still root! If not - do it again with `su -`**
+
 1. Run `./main.sh`
 2. Follow the onscreen prompts to install and configure your Bitcoin Knots node and your DATUM gateway!
 
