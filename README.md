@@ -148,10 +148,12 @@ Note: If you make a mistake with the folllowing steps, start over with a fresh i
 1. Run `./main.sh`
 2. Follow the onscreen prompts to install and configure your Bitcoin Knots node and your DATUM gateway!
 
-**For instructions on how to configure your node/gateway see [here](https://github.com/BitcoinMechanic/datum-setup-instructions).**
+**For instructions on how to answer the questions and configure your node/gateway see [here](https://github.com/BitcoinMechanic/datum-setup-instructions).**
 
 **Your node will now sync. Check its progress with `bitcoin-cli getblockcount`** Note: You will need to do this as the `bitcoin` user - or whatever you called the user created when running the script. `su - bitcoin` to switch to that user.
 
 You can follow along with `tail -f /var/lib/bitcoind/debug.log` also.
 
-**You can now connect your miners to your DATUM gateway!**
+**Once your node has finished syncing you will be able to connect your miners to your DATUM gateway!**
+
+Typically you can just type `ip a` and find the local IP of the Debian machine that way and point your miner to `stratum+tcp://your_local_ip:23334`
