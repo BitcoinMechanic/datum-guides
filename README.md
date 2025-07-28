@@ -133,6 +133,8 @@ systemd=true
 
 ## Debian
 
+Important: This is designed to work on a brand new installation of Debian. Do not attempt to run this on a machine you've already been using for other stuff, especially if it's already been running a Bitcoin node.
+
 Note: If you make a mistake with the folllowing steps, start over with a fresh install of Debian.
 
 ### Install Git and Clone the Installation Repo
